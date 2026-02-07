@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/eclipse-temurin:17-jdk-alpine -----public.ecr.aws/docker/library/eclipse-temurin:17-jdk-alpine
+FROM public.ecr.aws/docker/library/eclipse-temurin:17-jdk-alpine
 RUN apk add --no-cache curl
 
 VOLUME /tmp
