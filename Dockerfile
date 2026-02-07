@@ -1,4 +1,4 @@
-FROM public.ecr.aws/temurin/temurin:17-jdk-alpine
+FROM public.ecr.aws/amazoncorretto/corretto:17-alpine
 
 RUN apk add --no-cache curl
 
